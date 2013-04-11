@@ -1,0 +1,52 @@
+// ==========================================================================
+// Basic Lists
+// ==========================================================================
+%list {
+	margin: $paragraph-margin-top 0 $paragraph-margin-bottom;
+	padding: 0;
+	list-style-position: outside;
+}
+%nested-list{
+	margin: 0 0 0 20px;
+}
+
+ol{
+	@extend %list;
+
+	ol, ul {
+		@extend %nested-list;
+	}
+}
+
+ul{
+	@extend %list;
+
+	ol, ul {
+		@extend %nested-list;
+	}
+
+	&.circle{list-style:circle}
+	&.square{list-style:square}
+	&.disc{list-style:disc}
+}
+
+dl{
+	@extend %list;
+
+	dt {
+		font-weight: bold;
+	}
+	dd {
+		margin: 0;
+	}
+
+	dd {
+		@extend %nested-list;
+	}
+}
+
+.nav-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

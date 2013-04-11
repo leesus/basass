@@ -1,0 +1,10 @@
+// ============================================
+// Old IE stylsheet - should import your
+// application.scss and set $old-ie variable
+// BaSass will take care of the rest (although
+// you're free to add further IE only styling)
+// ============================================
+
+$old-ie: true;
+
+@import "application";

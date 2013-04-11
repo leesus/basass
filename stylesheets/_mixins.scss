@@ -1,0 +1,81 @@
+// ==========================================================================
+// Helpers
+// ==========================================================================
+
+@mixin clearfix {
+	*zoom:1;
+	&:before, &:after{content:'';display:table}
+	&:after{clear:both}
+}
+
+// ==========================================================================
+// Responsive mixins
+// ==========================================================================
+
+@mixin media-query($query){
+	@media #{$query} {
+		@content;
+	}
+}
+
+@mixin respond-to($query){
+	@if $old-ie == true {
+		@if $query == "screen and (min-width: #{$small-screen})" {
+			@content;
+		}
+	}
+	@else {
+		@include media-query($query) {
+			@content;
+		}
+	}
+}
+
+// Animate media queries
+@mixin animate-query{	
+	@if $animate-queries and $query-transition {		
+		@include transition($query-transition);
+	}
+}
+
+// ==========================================================================
+// IE mixin
+// ==========================================================================
+
+@mixin ie{
+	@if $ie {
+		@content;
+	}
+}
+
+// ==========================================================================
+// Animation
+// ==========================================================================
+
+@mixin keyframes($name){
+	@-webkit-keyframes $name {
+		@content;
+	}
+	@-moz-keyframes $name {
+		@content;
+	}
+	@-o-keyframes $name {
+		@content;
+	}
+	@keyframes $name {
+		@content;
+	}
+	//$prefixes: -webkit-, -moz-, -o-, '';
+	//@each $prefix in $prefixes {
+	//	"@#{$prefix}keyframes" $name {
+	//		@content;
+	//	}
+	//}
+}
+
+@mixin animation($animation-name, $animation-duration, $animation-timing-function){
+	$prefixes: -webkit-, -moz-, -o-, '';
+	@each $prefix in $prefixes {
+		#{$prefix}animation: $animation-name $animation-duration $animation-timing-function;
+	}
+}

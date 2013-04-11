@@ -1,0 +1,23 @@
+.show-small-only{display:inherit}
+.show-medium-only{display:none}
+.show-large-only{display:none}
+
+.hide-small-only{display:none}
+.hide-medium-only{display:none}
+.hide-large-only{display:none}
+
+.hide-for-small-up{
+	@include animate-query;
+	display:inherit !important;
+}
+.show-for-small-up{
+	@include animate-query;
+	display:none !important;
+}
+
+
+
+@include respond-to($small-query) {
+	.hide-for-small-up{display:none !important}
+	.show-for-small-up{display:inherit !important}
+}

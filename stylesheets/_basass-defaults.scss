@@ -1,0 +1,92 @@
+// ==========================================================================
+// Global defaults
+// ==========================================================================
+
+$old-ie: false !default;
+
+$container-width: 1000px !default;
+
+$main-color: #08a8e4 !default;
+$secondary-color: #ff1926 !default;
+
+$text-direction: ltr !default;
+$float: left;
+$opposite-float: right;
+
+@if $text-direction == rtl {
+	$float: right;
+	$opposite-float: left;
+}
+
+// ==========================================================================
+// Grid & media query defaults
+// ==========================================================================
+
+$columns: 12 !default;
+$column-gutter: 30px !default;
+
+$small-screen: 768px !default; // tablet - landscape
+$medium-screen: 1280px !default; // desktop
+$large-screen: 1440px !default; // large desktop, tv, etc
+
+$small-query: "screen and (min-width: #{$small-screen})" !default;
+$medium-query: "screen and (min-width: #{$medium-screen})" !default;
+$large-query: "screen and (min-width: #{$large-screen})" !default;
+
+$query-transition-property: all !default;
+$query-transition-duration: 0.3s !default;
+$query-transition-timing-function: linear !default;
+$query-transition: $query-transition-property $query-transition-duration $query-transition-timing-function;
+$animate-queries: true !default;
+
+// ==========================================================================
+// Typography defaults
+// ==========================================================================
+
+// Modular Scale
+$base-font-size: 16px !default;
+$base-important-number: 90px !default;
+$base-size: $base-font-size $base-important-number;
+$ratio: 1.61803398875 !default;
+$line-height: 1.5 !default;
+
+// Headers
+$header-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$header-font-weight: bold !default;
+$header-font-color: #222 !default;
+$header-margin-top: 0.2em !default;
+$header-margin-bottom: 0.5em !default;
+$sub-heading-font-color: lighten($header-font-color, 50%) !default;
+
+// Paragraphs
+$paragraph-font-family: inherit !default;
+$paragraph-font-weight: normal !default;
+$paragraph-font-color: #444 !default;
+$paragraph-margin-top: 0 !default;
+$paragraph-margin-bottom: 1.5em !default;
+
+// Code
+$code-font-family: 'Courier New', Courier, mono !default;
+$code-font-weight: 600 !default;
+$code-font-color: $secondary-color !default;
+
+// Rule
+$hr-border-width: 1px !default;
+$hr-border-style: solid !default;
+$hr-border-color: #ddd !default;
+$hr-margin-top: 1.5em !default;
+$hr-margin-bottom: 1.5em !default;
+
+// Blockquote
+$blockquote-margin-top: 1.5em !default;
+$blockquote-margin-bottom: 1.5em !default;
+$blockquote-font-color: $sub-heading-font-color !default;
+
+// Links
+$link-color: $main-color !default;
+
+// ==========================================================================
+// Decorative styles
+// ==========================================================================
+
+$border-radius: 3px !default;

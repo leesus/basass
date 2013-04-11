@@ -1,0 +1,128 @@
+@import "compass/css3";
+
+// ==========================================================================
+// Grid variables and mixins
+// ==========================================================================
+
+$output-grid-classes: true !default;
+
+//
+// Rows
+//
+%row{
+	@include clearfix;
+	box-sizing:border-box;
+	max-width: $container-width + $column-gutter;
+	width: 100%;
+	margin: 0 auto;
+}
+
+%nested-row{
+	margin-left: -($column-gutter / 2);
+	margin-right: -($column-gutter / 2);
+	width: auto;
+	max-width: none;
+}
+
+@mixin grid-row($behaviour: false) {
+	@if $behaviour == false {
+		@extend %row;
+	}
+	@else if $behaviour == nested {
+		@extend %nested-row;
+	}
+}
+
+//
+// Columns
+//
+@mixin grid-column($column-size: false, $push: false, $pull: false, $centered: false, $offset: false){
+	
+	@include animate-query;
+	@include box-sizing(border-box);
+	position: relative;
+	padding-left: $column-gutter / 2;
+	padding-right: $column-gutter / 2;
+
+	@if $column-size {
+		width: gridCalc($column-size, $columns);
+		float: #{$float};
+	}
+
+	//
+	// Centered
+	//
+	@if $centered {
+		float: none !important;
+		margin: 0 auto !important;
+	}
+
+	//
+	// Source ordering
+	//
+	@if $push {
+		#{$float}: gridCalc($push, $columns);
+	}
+	@if $pull {
+		#{$opposite-float}: gridCalc($pull, $columns);
+	}
+
+	//
+	// Offset
+	//
+	@if $offset {
+		margin-#{$float}: gridCalc($offset, $columns);
+	}
+}
+
+// ==========================================================================
+// Grid classes
+// ==========================================================================
+
+@if $output-grid-classes{
+	.row{
+		@include grid-row;
+
+		.column,
+		.columns {
+			@include grid-column();			
+
+			&.centered {
+				@include grid-column($centered: true);
+			}
+
+			@include respond-to($small-query) {
+				@for $i from 1 through $columns {
+					$word: numberToWord($i);
+					&.#{$word}{
+						@include grid-column($column-size: $i);
+					}
+
+					//
+					// Source ordering
+					//
+					&.push-#{$word}{
+						@include grid-column($push: $i);
+					}
+					&.pull-#{$word}{
+						@include grid-column($pull: $i);
+					}
+					
+					//
+					// Offset
+					//
+					&.offset-#{$word}{
+						@include grid-column($offset: $i);
+					}
+				}
+			}
+		}
+
+		//
+		// Nested rows
+		//
+		.row{
+			@include grid-row($behaviour: nested);
+		}
+	}
+}

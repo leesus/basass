@@ -1,0 +1,43 @@
+// ==========================================================================
+// Helper functions - https://github.com/zurb/foundation/
+// ==========================================================================
+
+$em-base: 16px !default;
+
+@function emCalc($pxWidth) {
+  @return $pxWidth / $em-base * 1em;
+}
+
+@function gridCalc($colNumber, $totalColumns) {
+  @return percentage(($colNumber / $totalColumns));
+}
+
+// ==========================================================================
+// Math functions - https://github.com/adambom/Sass-Math
+// ==========================================================================
+
+@function power ($x, $n) {
+    $ret: 1;    
+    @if $n >= 0 {
+        @for $i from 1 through $n {
+            $ret: $ret * $x;
+        } 
+    } @else {
+        @for $i from $n to 0 {
+            $ret: $ret / $x;
+        }
+    }    
+    @return $ret;
+}
+
+
+
+@function numberToWord($num){
+	$words: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen;
+	@for $i from 1 through length($words) {
+		$word: nth($words, $i);
+		@if $num == $i {
+			@return $word;
+		}
+	}
+}

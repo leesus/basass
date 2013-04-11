@@ -1,0 +1,387 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"webkit-d",
+				"webkit-animation-delay"
+			],
+			[
+				"animation-",
+				"animation-timing-function"
+			],
+			[
+				"blo",
+				"blockquote"
+			],
+			[
+				"small-",
+				"small-query"
+			],
+			[
+				"OpenSans",
+				"OpenSansSemiBold"
+			],
+			[
+				"containe",
+				"container-width"
+			],
+			[
+				"dark",
+				"darkOrange"
+			],
+			[
+				"sta",
+				"statusCode"
+			],
+			[
+				"tweet",
+				"tweetscollection"
+			],
+			[
+				"twitter",
+				"twitter-search"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fr",
+				"frameHeight"
+			],
+			[
+				"cur",
+				"currentSprite"
+			],
+			[
+				"fram",
+				"frameHeight"
+			],
+			[
+				"curr",
+				"currentSprite"
+			],
+			[
+				"random",
+				"randomFroggyAttrs"
+			],
+			[
+				"from",
+				"fromEmail"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "basass.gemspec",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Coffee: Compile File"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Lee/development/basass/basass2/templates/project/manifest.rb",
+		"/Users/Lee/development/basass/basass2/lib/basass.gemspec",
+		"/Users/Lee/development/basass/basass2/lib/basass.rb",
+		"/Users/Lee/development/basass/test.html",
+		"/Users/Lee/development/basass/portfolio-test.html",
+		"/Users/Lee/development/basass/portfolio.scss",
+		"/Users/Lee/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/Lee/development/basass/basass/components/_prettyprint.scss",
+		"/Users/Lee/work/sb-styleguide/vendor/assets/stylesheets/styleguide/base/_lists.css.scss",
+		"/Users/Lee/work/sb-styleguide/vendor/assets/stylesheets/styleguide/base/_type.css.scss",
+		"/Users/Lee/development/basass/basass/components/_icons.scss",
+		"/Users/Lee/development/css-boilerplate/boilerplate/components/_prettyprint.scss",
+		"/Users/Lee/development/css-boilerplate/boilerplate/components/_grids.scss",
+		"/Users/Lee/development/css-boilerplate/boilerplate/components/_type.scss",
+		"/Users/Lee/development/css-boilerplate/boilerplate/_boilerplate-defaults.scss",
+		"/Users/Lee/development/css-boilerplate/boilerplate/boilerplate.scss",
+		"/Users/Lee/development/basass/docs.scss",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/README.md",
+		"/Users/Lee/Desktop/sb-styleguide/vendor/assets/stylesheets/_mixins.css.scss",
+		"/Users/Lee/development/css-boilerplate/boilerplate/_modular-scale.scss",
+		"/Users/Lee/.bash_profile",
+		"/Users/Lee/.bashrc",
+		"/Users/Lee/development/css-boilerplate/boilerplate.scss",
+		"/Users/Lee/development/css-boilerplate/config.rb",
+		"/Users/Lee/Desktop/sb-styleguide/sb-styleguide.gemspec",
+		"/Users/Lee/Desktop/sb-styleguide/vendor/assets/stylesheets/styleguide/grid/_grid.css.scss",
+		"/Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/css3/_shared.scss",
+		"/Users/Lee/Downloads/index.html",
+		"/Users/Lee/Desktop/sb-styleguide/vendor/assets/stylesheets/styleguide/base/_buttons.css.scss",
+		"/Users/Lee/development/whats-for-dinner/public/stylesheets/config.rb",
+		"/Users/Lee/development/whats-for-dinner/public/stylesheets/_mixins.scss",
+		"/Users/Lee/Desktop/sb-styleguide/vendor/assets/stylesheets/styleguide/base/_type.css.scss",
+		"/Users/Lee/development/whats-for-dinner/public/stylesheets/_reset.scss",
+		"/Users/Lee/development/whats-for-dinner/app.js",
+		"/Users/Lee/development/yummly-api/lib/index.coffee",
+		"/Users/Lee/development/whats-for-dinner/node_modules/node-sass/sass.js",
+		"/Users/Lee/development/met-api/test/mocha.opts",
+		"/Users/Lee/development/met-api/lib/index.coffee",
+		"/Users/Lee/development/met-api/test/met-api-test.js",
+		"/Users/Lee/development/met-api/test/met-api-test.coffee",
+		"/Users/Lee/development/met-api/package.json",
+		"/Users/Lee/hubot/src/scripts/hellojamie.coffee",
+		"/Users/Lee/hubot/src/scripts/ping.coffee",
+		"/Users/Lee/.zprofile",
+		"/Users/Lee/.profile",
+		"/Users/Lee/Desktop/PartyTime/party_time/app/assets/javascripts/templates/party_view.hamlc.haml",
+		"/Users/Lee/Desktop/index.html",
+		"/Users/Lee/Desktop/PartyTime/party_time/vendor/assets/javascripts/backbone.js",
+		"/Users/Lee/Desktop/PartyTime/party_time/vendor/assets/javascripts/underscore.js",
+		"/Users/Lee/development/DanFox/wp-content/themes/DanFoxArt/library/less/config.less",
+		"/Users/Lee/Desktop/qyz.me/assets/js/quiz.less",
+		"/Users/Lee/Desktop/sb-styleguide/vendor/assets/javascripts/styleguide/plugins/tbg-switch.js.coffee",
+		"/Users/Lee/Desktop/sb-styleguide/app/views/ui/alert.html.haml",
+		"/Users/Lee/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Lee/Desktop/sb-styleguide/app/views/javascripts/index.html.haml",
+		"/Users/Lee/Desktop/sb-styleguide/app/views/javascripts/_js_nav.html.haml",
+		"/Users/Lee/learning/coffeescript/Chapter 1/hello.coffee",
+		"/Users/Lee/development/DanFox/wp-content/themes/DanFoxArt/home-page.php",
+		"/Users/Lee/Desktop/DanFoxArt/single.php",
+		"/Users/Lee/Desktop/DanFoxArt/taxonomy-custom_cat.php",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/app/scripts/app/views/formview.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/test/specs/views/formview.test.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/test/specs/views/tweetsview.test.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/app/scripts/app/views/tweetsview.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/test/specs/views/tweetview.test.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/app/scripts/app/views/tweetview.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/app/scripts/app/collections/tweetscollection.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/test/specs/collections/tweetscollection.test.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/test/lib/sinon.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/app/scripts/app/models/tweetmodel.js",
+		"/Users/Lee/Desktop/twitter-search/front-end-developer-assignment/test/specs/models/tweetmodel.test.js",
+		"/Users/Lee/Desktop/twitter-search/tests/views/appview.test.js",
+		"/Users/Lee/Desktop/JavaScript-Koans/jskoans.htm",
+		"/Users/Lee/development/zombiegeddon/js/app.js",
+		"/Users/Lee/Desktop/FrogTechTest/php/frog.php",
+		"/Users/Lee/Desktop/Logo Mark/logo.svg",
+		"/Users/Lee/Desktop/gravatar-hash.rb",
+		"/Users/Lee/Desktop/contact-page.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/Lee/Desktop/DanFoxArt"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"components",
+			"<",
+			">",
+			"<",
+			">",
+			"<",
+			">",
+			"<",
+			";",
+			"@adjust",
+			"line-height",
+			"sort_list",
+			"* ",
+			"* sort_list",
+			"golden_ratio()",
+			" */",
+			"biography",
+			"http://www.lee-ellam.com"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"basass",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			" !important;",
+			"@include adjust",
+			"sort-list",
+			"",
+			"http://old.lee-ellam.com"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "basass.gemspec",
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 106.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true
+}
