@@ -3,7 +3,7 @@
 ## About
 BaSass is a Sass framework built as a Compass extension to use as a base for mobile first responsive design. Currently it is dead basic(!) but will add more features as and when I require them. Currently, there are responsive, mobile first (IE compatible) grids, modular scale based typography, normalize.css and fontawesome icons.
 
-To view documentation, please head over to (BaSass Docs)[http://basass.lee-ellam.com]
+To view documentation, please head over to [BaSass Docs](http://basass.lee-ellam.com "BaSass Docs")
 
 ## Installation & Usage
 
